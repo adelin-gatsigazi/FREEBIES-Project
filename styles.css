@@ -90,31 +90,21 @@
     box-shadow: -0px 18px 25px 6px  #F5383859;
     position: absolute;
 }
-.third-rectangle {
-    border: 0px  solid rgb(163, 156, 163);
-    border-radius: 15px;
+.rectangle {
     background-color: #FFFFFF;
-    height: 120px;
-    width: 98%;
-
+    border-radius: 14px;
+    box-shadow: -0px 18px 25px 6px #eaeaf0;
+    width: 1045px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    padding: 50px;
+    margin-top: 70px;
+    margin-left: 35px;
 }
-.second-rectangle {
-    display: flex;
-    gap: 100px;
-    margin-top: 65px;
-    margin-right: 4px;
-    margin-bottom: 40px;
-    margin-left: 240px;
-    width: 1000px;
-    border: 1px  solid  #fefcfc;
-    border-radius: 25px;
-    background-color: #fefcfc;
-}
-
 #user-icon {
-    width: 65px;
-    height: 65px;
-    margin-left: -240px;
+    width: 55px;
+    height: 55px;
+    margin-left: -70px;
 }
 .user-style {
     display: flex;
@@ -123,7 +113,7 @@
 }
 .ninety-plus {
     margin-bottom: -14px;
-    margin-top: 8px;
+    margin-top: 6px;
     font-family: "Rubik", sans-serif;
     font-style: normal;
     color: #0B132A;
@@ -131,11 +121,11 @@
 }
 .user-line {
     border-left: 2px solid #EEEFF2;
-    height: 50px;
+    height: 70px;
     position: absolute;
     left: 50%;
     margin-left: -210px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 .users-text {
     color: #4F5665;
@@ -143,16 +133,17 @@
 .location-style {
     display: flex;
     gap: 25px;
-    
+    margin-left: 450px;
+    margin-top: -70px;
 }
 #location-icon {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     margin-left: 95px;
 }
 .thirty-plus {
     margin-bottom: -14px;
-    margin-top: 8px;
+    margin-top: 6px;
     font-family: "Rubik", sans-serif;
     font-style: normal;
     color: #0B132A;
@@ -162,31 +153,33 @@
 }
 .location-line {
     border-left:  2px solid #EEEFF2;
-    height: 50px;
+    height: 70px;
     position: absolute;
     left: 50%;
     margin-left: 250px;
-    margin-top: -60px;
+    margin-top: -70px;
 }
 #server-text {
     color: #4F5665;
 }
 #server-plus {
     margin-bottom: -14px;
-    margin-top: 13px;
+    margin-top: 4px;
     font-family: "Rubik", sans-serif;
     font-style: bolder;
     color: #0B132A;
 }
 .server-style {
     display: flex;
+    margin-left: 750px;
+    margin-top: -60px;
     gap: 15px;
     
 }
 #server-icon {
     margin-bottom: 90px;
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     margin-left: 180px;
 }
 .page2 {
