@@ -366,3 +366,47 @@
     font-family: "Rubik", sans-serif;
     color: #4F5665;
 }
+.Global {
+    margin-left: 460px;
+    font-family: "Rubik", sans-serif;
+    color: #0B132A;
+}
+.Global-text {
+    margin-left: 67px;
+    margin-top: -18px
+}
+.Global-p {
+    color: #4F5665;
+    margin-left: -30px;
+    font-size: small;
+}
+.Global-p1 {
+    margin-top: -8px;
+    margin-left: 140px;
+    font-size: small;
+}
+.Global-map {
+    margin-left: -370px;
+    margin-top: 100px;
+
+}
+.sponsor {
+    display: flex;
+    margin-left: -375px;
+    margin-top: 50px;
+    height: 60px;
+    gap: 60px;
+}
+#amazon {
+    height: 150px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.netflix {
+    height: 90px;
+    margin-top: -15px;
+}
+.reddit {
+    height: 50px;
+    margin-top: 3px;
+}
