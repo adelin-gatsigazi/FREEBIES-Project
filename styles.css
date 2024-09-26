@@ -90,31 +90,21 @@
     box-shadow: -0px 18px 25px 6px  #F5383859;
     position: absolute;
 }
-.third-rectangle {
-    border: 0px  solid rgb(163, 156, 163);
-    border-radius: 15px;
+.rectangle {
     background-color: #FFFFFF;
-    height: 120px;
-    width: 98%;
-
+    border-radius: 14px;
+    box-shadow: -0px 18px 25px 6px #eaeaf0;
+    width: 1045px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    padding: 50px;
+    margin-top: 70px;
+    margin-left: 35px;
 }
-.second-rectangle {
-    display: flex;
-    gap: 100px;
-    margin-top: 65px;
-    margin-right: 4px;
-    margin-bottom: 40px;
-    margin-left: 240px;
-    width: 1000px;
-    border: 1px  solid  #fefcfc;
-    border-radius: 25px;
-    background-color: #fefcfc;
-}
-
 #user-icon {
-    width: 65px;
-    height: 65px;
-    margin-left: -240px;
+    width: 55px;
+    height: 55px;
+    margin-left: -70px;
 }
 .user-style {
     display: flex;
@@ -123,7 +113,7 @@
 }
 .ninety-plus {
     margin-bottom: -14px;
-    margin-top: 8px;
+    margin-top: 6px;
     font-family: "Rubik", sans-serif;
     font-style: normal;
     color: #0B132A;
@@ -131,11 +121,11 @@
 }
 .user-line {
     border-left: 2px solid #EEEFF2;
-    height: 50px;
+    height: 70px;
     position: absolute;
     left: 50%;
     margin-left: -210px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 .users-text {
     color: #4F5665;
@@ -143,16 +133,17 @@
 .location-style {
     display: flex;
     gap: 25px;
-    
+    margin-left: 450px;
+    margin-top: -70px;
 }
 #location-icon {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     margin-left: 95px;
 }
 .thirty-plus {
     margin-bottom: -14px;
-    margin-top: 8px;
+    margin-top: 6px;
     font-family: "Rubik", sans-serif;
     font-style: normal;
     color: #0B132A;
@@ -162,31 +153,33 @@
 }
 .location-line {
     border-left:  2px solid #EEEFF2;
-    height: 50px;
+    height: 70px;
     position: absolute;
     left: 50%;
     margin-left: 250px;
-    margin-top: -60px;
+    margin-top: -70px;
 }
 #server-text {
     color: #4F5665;
 }
 #server-plus {
     margin-bottom: -14px;
-    margin-top: 13px;
+    margin-top: 4px;
     font-family: "Rubik", sans-serif;
     font-style: bolder;
     color: #0B132A;
 }
 .server-style {
     display: flex;
+    margin-left: 750px;
+    margin-top: -60px;
     gap: 15px;
     
 }
 #server-icon {
     margin-bottom: 90px;
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     margin-left: 180px;
 }
 .page2 {
@@ -372,4 +365,160 @@
     font-size: xx-large;
     font-family: "Rubik", sans-serif;
     color: #4F5665;
+}
+.Global {
+    margin-left: 460px;
+    font-family: "Rubik", sans-serif;
+    color: #0B132A;
+}
+.Global-text {
+    margin-left: 67px;
+    margin-top: -18px
+}
+.Global-p {
+    color: #4F5665;
+    margin-left: -30px;
+    font-size: small;
+}
+.Global-p1 {
+    margin-top: -8px;
+    margin-left: 140px;
+    font-size: small;
+}
+.Global-map {
+    margin-left: -370px;
+    margin-top: 100px;
+
+}
+.sponsor {
+    display: flex;
+    margin-left: -375px;
+    margin-top: 50px;
+    height: 60px;
+    gap: 60px;
+}
+#amazon {
+    height: 150px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.netflix {
+    height: 90px;
+    margin-top: -15px;
+}
+.reddit {
+    height: 50px;
+    margin-top: 3px;
+}
+.Trusted {
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.Happy {
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: x-large;
+}
+#These {
+    margin-left: -30px;
+    margin-top: 40px;
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    font-size: small;
+}
+#pleasure {
+    margin-left: 50px;
+    margin-top: -7px;
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    font-size: small;
+}
+.last-box {
+    display: flex;
+    margin-top: 70px;
+}
+.second-box {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    width: 260px;
+    height: 90px;
+    border: 2px solid #F53838;
+    padding: 50px;
+    margin-left: 110px;
+    margin-right: 90px;
+}
+.second-box1 {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    width: 260px;
+    height: 90px;
+    border: 2px solid #DDDDDD;
+    padding: 50px;
+    margin-right: -200px;
+}
+.second-box2 {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    width: 260px;
+    height: 90px;
+    border: 2px solid #DDDDDD;
+    padding: 50px;
+    margin-left: 240px;
+    margin-right: 2px;
+}
+.Robert-design, .Yessica-design {
+    display: flex;
+}
+#Robert-profile, #Yessica-profile {
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: -30px;
+}
+.Robert-text, .Yessica-text {
+    font-size: 7px;
+    margin-top: -44px;
+    font-family: "Rubik", sans-serif;
+    color: #0B132A;
+    margin-left: 12px;
+
+}
+.Poland, .China {
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    margin-top: -8px;
+}
+.rating-robert, .rating-yessica {
+    display: flex;
+    margin-top: -60px;
+    margin-left: 128px;
+    font-size: xx-small;
+}
+.rate, .rate1 {
+    color: #0B132A;
+    font-family: "Rubik", sans-serif;
+    margin-top: 40px;
+}
+.star-rate, .star-rate1 {
+    width: 10px;
+    height: 11px;
+    margin-top: 39px;
+    margin-left: 7px;
+    margin-right: -32px;
+}
+.Robert-bio, .Yessica-bio {
+    line-height: 1.4;
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+.Yessica {
+    color: #0B132A;
+    font-family: "Rubik", sans-serif;
+    font-size: 11.8px;
+    margin-top: 14px;
+
 }
