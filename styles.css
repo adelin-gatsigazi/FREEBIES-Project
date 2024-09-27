@@ -573,8 +573,8 @@
     background-color: #F8F8F8;
     border-radius: 100px;
     width: 1020px;
-    height: 160px;
-    border: 1px solid #F8F8F8;
+    height: 120px;
+    border: 0px solid #F8F8F8;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 80px;
@@ -586,17 +586,16 @@
 }
 .last-rectangle {
     background-color: #FFFFFF;
-    border-radius: 2px;
+    border-radius: 4px;
     width: 860px;
-    height: 120px;
-    border: 1px solid #FFFFFF;
+    height: 100px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 40px;
     padding-left: 150px;
-    margin-left: -40px;
-    margin-right: -5px;
-    margin-top: 5px;
+    margin-left: 110px;
+    margin-right: 25px;
+    margin-top: -70px;
     margin-bottom: 80px;
 }
 #color-button1 {
@@ -629,6 +628,64 @@
 .last-page {
     background-color:#F8F8F8;
     width: 100.4%;
-    height: 500px;
+    height: 564px;
     margin-top: -210px;
 }
+.footer-logo {
+    display: flex;
+
+}
+.logo-corner1 {
+    width: 35px;
+    height: 36.23px;
+    margin-left: 105px;
+}
+.LaslesVPN {
+    font-family: "Rubik", sans-serif;
+    font-size: larger;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.last-long {
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    line-height: 0.8;
+    margin-left: 110px;
+    font-size: smaller;
+}
+.social-media {
+    display: flex;
+    margin-left: -20px;
+    margin-top: 30px;
+    width: 63.6px;
+    height: 63.6px;
+}
+#Facebook, #Twitter {
+    margin-right: -20px;
+}
+.text-LaslesVPN {
+    font-family: "Rubik", sans-serif;
+    color: #AFB5C0;
+    margin-top: -8px;
+}
+.last-list {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    margin-left: 740px;
+    margin-top: -215px;
+    line-height: 1.9;
+}
+.Product, .Engage, .Earn-Money {
+    list-style: none;
+    font-size: small;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+#Product, #Engage, #Earn {
+    margin-bottom: 10px;
+}
+.Download, .FAQ, .Affiliate {
+    color: #4F5665;
+    font-size: smaller;
+}
+
