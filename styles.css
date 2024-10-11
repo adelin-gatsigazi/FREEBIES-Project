@@ -585,6 +585,8 @@
     margin-bottom: 80px;
 }
 .last-rectangle {
+    position: relative;
+    top: -38px;
     background-color: #FFFFFF;
     border-radius: 4px;
     width: 860px;
@@ -596,7 +598,7 @@
     margin-left: 110px;
     margin-right: 25px;
     margin-top: -70px;
-    margin-bottom: 80px;
+    margin-bottom: 210px;
 }
 #color-button1 {
     margin-top: -80px;
@@ -688,4 +690,3 @@
     color: #4F5665;
     font-size: smaller;
 }
-
